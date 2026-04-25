@@ -1,0 +1,189 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #222222;
+  color: #eeeeee;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid #444;
+  background-color: #1a1a1a;
+}
+
+.header h1 {
+  margin: 0;
+  color: #fff;
+  font-size: 28px;
+}
+
+.btn-logout {
+  background-color: #ff4b4b;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-logout:hover {
+  background-color: #d13a3a;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.upload-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 30px;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.upload-card h2 {
+  margin-top: 0;
+  color: #222;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.file-input {
+  background-color: #444;
+  color: white;
+  padding: 12px;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  border: none;
+}
+
+.btn-upload {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.2s;
+}
+
+.btn-upload:hover {
+  background-color: #45a049;
+}
+
+.btn-upload:disabled {
+  background-color: #88c08a;
+  cursor: not-allowed;
+}
+
+.file-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.file-item {
+  border: 1px solid #555;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: transparent;
+}
+
+.file-header {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+.file-meta {
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+.btn-share {
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-share:hover {
+  background-color: #0b7dda;
+}
+
+/* Authentication Screens styling to match the dark theme */
+.login-container {
+  max-width: 400px;
+  margin: 100px auto;
+  background-color: #333;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+}
+
+.login-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.login-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #555;
+  background: #222;
+  color: white;
+  box-sizing: border-box;
+}
+
+.btn-primary {
+  width: 100%;
+  padding: 14px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.btn-primary:hover {
+  background-color: #45a049;
+}
+
+.link-text {
+  text-align: center;
+  margin-top: 20px;
+  color: #4caf50;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.link-text:hover {
+  text-decoration: underline;
+}
